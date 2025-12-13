@@ -1,4 +1,4 @@
-// Updated App.jsx - Professional Theme
+
 import { useState, useEffect } from 'react';
 import SearchBar from './components/SearchBar';
 import CourseList from './components/CourseList';
