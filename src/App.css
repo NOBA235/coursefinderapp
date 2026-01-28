@@ -9,7 +9,7 @@
   --card-bg: #ffffff;
   --text-primary: #1e293b;
   --text-secondary: #475569;
-  --border: #e2e8f0;
+  --border: #a9abaf;
   --radius: 8px;
   --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07);
@@ -36,18 +36,18 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  background: linear-gradient(135deg, #e2e2dd 0%, #fcf5f5 100%);
 }
 
 /* Header - Professional */
 .header {
   padding: 1.25rem 2rem;
-  background: white;
+  background: rgb(206, 202, 197);
   border-bottom: 1px solid var(--border);
   position: sticky;
   top: 0;
   z-index: 100;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 1px 2px 3px 0 rgba(27, 21, 21, 0.05);
 }
 
 .header-content {
@@ -156,11 +156,13 @@ body {
 .search-input {
   width: 100%;
   padding: 1rem 1rem 1rem 3rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   border: none;
-  background: transparent;
-  color: var(--text-primary);
-  outline: none;
+  background: #222121;
+  color: hsl(0, 0%, 100%);
+  outline: 2px solid #f8fafc;
+  border-radius: 20px;
+
 }
 
 .search-input::placeholder {
