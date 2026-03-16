@@ -58,6 +58,13 @@ function App() {
             </div>
           </a>
         </div>
+        <nav className='navbar'>
+          <ul className='nav-links'>
+            <li><a href='/'>Home</a></li>
+             <li><a href='/'>Courses</a></li>
+              <li><a href='/'>Popular</a></li>
+          </ul>
+        </nav>
       </header>
 
       <main className="main-content">
