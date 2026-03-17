@@ -2,10 +2,10 @@ const CourseList = ({ courses }) => {
   const getCategoryColor = (category) => {
     const colors = {
       'Frontend': '#3e4949ff',
-      'Backend': '#582819ff',
+      'Backend': 'rgb(224, 212, 208)',
       'Programming': '#8b5cf6',
       'Design': '#253c4eff',
-      'Data': '#3d1010ff',
+      'Data': 'rgb(228, 212, 212)',
       'Mobile': '#402ee4ff'
     };
     return colors[category] || '#6b7280';
